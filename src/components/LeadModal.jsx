@@ -22,7 +22,7 @@ export default function LeadModal({ isOpen, onClose, selectedService }) {
     setLoading(true);
 
     try {
-      await fetch('https://formsubmit.co/ajax/tsxaiautomation@gmail.com', {
+      await fetch('https://formsubmit.co/ajax/autonyxaiautomation@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -39,7 +39,7 @@ export default function LeadModal({ isOpen, onClose, selectedService }) {
           'Selected Service': formData.service,
           'Details': formData.details || 'Audit Request',
           'Submitted At': new Date().toLocaleString(),
-          'Source': 'TSX AI Website - Lead Modal',
+          'Source': 'AUTONYX AI Website - Lead Modal',
         }),
       });
 

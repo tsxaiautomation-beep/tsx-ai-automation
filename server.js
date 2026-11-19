@@ -44,10 +44,10 @@ if (process.env.MONGODB_URI) {
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'online',
-    brand: 'TSX AI Automation',
+    brand: 'AUTONYX AI Automation',
+    tagline: 'Automate • Innovate • Grow',
     headquarters: 'Karachi, Pakistan',
-    phone: '03363925950',
-    email: 'tsxaiautomation@gmail.com',
+    email: 'autonyxaiautomation@gmail.com',
     database: mongoDb ? 'MongoDB Atlas' : 'Local JSON Store (Ready for MongoDB/Firebase)',
     timestamp: new Date().toISOString(),
   });
@@ -63,7 +63,7 @@ app.post(['/api/contact', '/api/leads'], async (req, res) => {
     }
 
     const newLead = {
-      id: 'TSX-' + Date.now().toString(36).toUpperCase(),
+      id: 'AUX-' + Date.now().toString(36).toUpperCase(),
       name,
       email: email || '',
       phone: phone || '',
@@ -73,7 +73,7 @@ app.post(['/api/contact', '/api/leads'], async (req, res) => {
       budget: budget || 'Standard',
       message: message || details || '',
       status: 'NEW',
-      source: 'TSX AI Website',
+      source: 'AUTONYX AI Website',
       createdAt: new Date().toISOString(),
     };
 
@@ -90,13 +90,20 @@ app.post(['/api/contact', '/api/leads'], async (req, res) => {
       console.log(`[FileStore] New lead saved: ${newLead.id} - ${newLead.name}`);
     }
 
+    // Determine reply timing based on provided phone number
+    const normalizedPhone = (phone || '').replace(/\D/g, '');
+    const primaryPhone = '03363925950'.replace(/\D/g, '');
+    const isPrimary = normalizedPhone === primaryPhone;
+    const replyMessage = isPrimary
+      ? 'Your request has been received. We will get back to you within 24 hours.'
+      : 'Consultation request received successfully. Our team will reply shortly via WhatsApp.';
+
     return res.status(201).json({
       success: true,
-      message: 'Consultation request received successfully. Our Karachi team will respond within 2 hours.',
+      message: replyMessage,
       leadId: newLead.id,
       contact: {
-        phone: '03363925950',
-        email: 'tsxaiautomation@gmail.com',
+        email: 'autonyxaiautomation@gmail.com',
       }
     });
   } catch (error) {
@@ -131,7 +138,7 @@ if (fs.existsSync(distDir)) {
 }
 
 app.listen(PORT, () => {
-  console.log(`🚀 TSX AI Automation Backend running on http://localhost:${PORT}`);
-  console.log(`📞 Contact: 03363925950 | 📧 tsxaiautomation@gmail.com | 📍 Karachi, Pakistan`);
+  console.log(`🚀 AUTONYX AI Automation Backend running on http://localhost:${PORT}`);
+  console.log(`📞 Contact: 03363925950 / 03141151571 | 📧 autonyxaiautomation@gmail.com | 📍 Karachi, Pakistan`);
 });
 

@@ -1,18 +1,35 @@
 export const COMPANY_INFO = {
-  name: "TSX AI Automation",
-  brandShort: "TSX AI",
-  tagline: "We Build Autonomous AI Systems That Run Your Sales & Support 24/7",
-  description: "We help growing businesses eliminate repetitive manual work using custom WhatsApp AI bots, automated sales pipelines, and smart CRM workflows. Based in Karachi, Pakistan, serving clients globally.",
+  name: "AUTONYX AI Automation",
+  brandShort: "AUTONYX",
+  tagline: "Automate • Innovate • Grow",
+  slogan: "Smarter Solutions. A Smarter Tomorrow.",
+  subTagline: "Your Partner in Digital Transformation",
+  description: "We build custom AI chatbots, autonomous workflows, high-performance web systems and cloud integrations that scale your business 24/7. Based in Karachi, Pakistan, serving clients globally.",
+  logoUrl: "/autonyx-logo.png",
+  bannerUrl: "/autonyx-banner.jpg",
   phone: "03363925950",
   formattedPhone: "+92 336 3925950",
-  whatsappUrl: "https://wa.me/923363925950?text=Hi%20TSX%20AI%20Automation!%20I%20want%20to%20automate%20my%20business%20workflows.",
-  email: "tsxaiautomation@gmail.com",
+  phone2: "03141151571",
+  formattedPhone2: "+92 314 1151571",
+  secondaryPhone: "03141151571",
+  formattedSecondaryPhone: "+92 314 1151571",
+  bothPhones: "+92 336 3925950 | +92 314 1151571",
+  whatsappUrl: "https://wa.me/923363925950?text=Hi%20AUTONYX%20AI!%20I%20want%20to%20automate%20my%20business%20workflows.",
+  whatsappUrl2: "https://wa.me/923141151571?text=Hi%20AUTONYX%20AI!%20I%20want%20to%20automate%20my%20business%20workflows.",
+  email: "autonyxaiautomation@gmail.com",
   address: "Pakistan, Karachi",
   city: "Karachi",
   country: "Pakistan",
   workingHours: "Monday - Saturday: 9:00 AM - 10:00 PM PKT (24/7 Automated System Monitoring)",
   guarantee: "100% Satisfaction Guarantee: We build and optimize until your workflows run flawlessly.",
 };
+
+export const CORE_PILLARS = [
+  { iconType: "bot", title: "AI Automation", desc: "Autonomous chatbots, lead routing & 24/7 sales assistants" },
+  { iconType: "globe", title: "Web Development", desc: "High-speed modern websites, web apps & client portals" },
+  { iconType: "trending", title: "Business Growth", desc: "Automated funnels, CRM sync & performance optimization" },
+  { iconType: "cloud", title: "Cloud Solutions", desc: "Secure API integrations, cloud databases & scalable backends" },
+];
 
 export const STATS = [
   { value: "< 10s", label: "Instant Lead Reply", description: "Engages every inquiry on WhatsApp in seconds" },
@@ -23,18 +40,69 @@ export const STATS = [
 
 export const CORE_SOLUTIONS = [
   {
+    id: "voice-ai",
+    title: "AI Voice Agents & Phone Calling",
+    badge: "Next-Gen AI",
+    simpleExplanation: "Human-sounding AI voice agents that make outbound follow-ups and answer inbound calls 24/7 in fluent Urdu and English.",
+    whatItDoes: [
+      "Answers customer calls with sub-600ms latency and zero robotic tone",
+      "Makes outbound appointment confirmations and payment follow-ups",
+      "Transfers qualified VIP callers to human managers with full live notes",
+      "Handles 500+ simultaneous phone calls with zero waiting queues"
+    ],
+    idealFor: "Real Estate, Clinics, Auto Dealerships, Customer Support Desks"
+  },
+  {
     id: "whatsapp-ai",
     title: "Official WhatsApp AI Bots",
     badge: "Most In-Demand",
     simpleExplanation: "An intelligent bot on your official business WhatsApp that talks to customers like a human in Roman Urdu or English.",
     whatItDoes: [
-      "Replies to customers instantly in under 5 seconds (24/7)",
-      "Understands Roman Urdu, English, and voice notes",
-      "Sends product catalogs, prices, and location details",
-      "Takes orders and checks delivery status automatically",
-      "Transfers complex chats to human staff with full context"
+      "Replies to customers instantly in under 3 seconds (24/7)",
+      "Understands Roman Urdu, English, and audio voice notes",
+      "Sends product catalogs, pricing, and live inventory status",
+      "Books appointments directly on Google Calendar & Calendly"
     ],
     idealFor: "E-commerce, Retail, Real Estate, Clinics, Service Businesses"
+  },
+  {
+    id: "email-marketing-ai",
+    title: "AI Email Marketing & Cold Outreach",
+    badge: "High Conversion",
+    simpleExplanation: "Autonomous personalized email campaigns with AI copywriting, automated inbox warm-up, and 99%+ deliverability.",
+    whatItDoes: [
+      "Engineers hyper-personalized subject lines and body copy at scale",
+      "Automated SPF, DKIM, and DMARC technical setup to bypass spam filters",
+      "Multi-stage behavioral follow-up sequences triggered by opens and clicks",
+      "Syncs positive warm replies directly to WhatsApp & CRM in real-time"
+    ],
+    idealFor: "B2B Agencies, Exporters, Consultants, Software Companies"
+  },
+  {
+    id: "all-business-automation",
+    title: "All Business Automation & Custom ERP",
+    badge: "Enterprise Suite",
+    simpleExplanation: "Unifies your entire company—sales, inventory, accounting, HR, and fulfillment—into one automated autopilot nervous system.",
+    whatItDoes: [
+      "Connects disparate software with zero manual double-data entry",
+      "Automates inventory deduction between Shopify, Amazon, and physical POS",
+      "Streamlines HR onboarding, contractor agreements, and daily attendance",
+      "Delivers daily executive 360° business P&L digests straight to WhatsApp"
+    ],
+    idealFor: "Wholesalers, Distributors, Manufacturers, Growing Corporations"
+  },
+  {
+    id: "business-workflows",
+    title: "Workflow & CRM Automation",
+    badge: "Save 40+ Hrs/Week",
+    simpleExplanation: "Connects all your separate software (WhatsApp, Sheets, Shopify, CRM, ERP) so data flows with zero manual entry.",
+    whatItDoes: [
+      "Auto-generates and sends invoices, receipts, and order confirmations",
+      "Scans PDF bills and receipts with AI OCR and enters data into accounting",
+      "Automatically updates inventory between website and physical store",
+      "Sends automated daily performance reports on WhatsApp or Slack"
+    ],
+    idealFor: "Wholesalers, Distributors, Logistics, Manufacturing, Law Firms"
   },
   {
     id: "sales-crm",
@@ -45,37 +113,9 @@ export const CORE_SOLUTIONS = [
       "Captures leads from Ads & website forms instantly",
       "Messages them on WhatsApp within 10 seconds before they go cold",
       "Qualifies their budget and requirements automatically",
-      "Directly books appointments on your Google / Calendly calendar",
-      "Syncs all data directly into your CRM or Google Sheets"
+      "Directly books appointments on your Google / Calendly calendar"
     ],
     idealFor: "Real Estate Brokers, Agencies, Consultants, B2B Companies"
-  },
-  {
-    id: "business-workflows",
-    title: "Workflow & Operations Automation",
-    badge: "Save 40+ Hrs/Week",
-    simpleExplanation: "Connects all your separate software (WhatsApp, Sheets, Shopify, CRM, ERP) so data flows with zero manual entry.",
-    whatItDoes: [
-      "Auto-generates and sends invoices, receipts, and order confirmations",
-      "Scans PDF bills and receipts with AI OCR and enters data into accounting",
-      "Automatically updates inventory between website and physical store",
-      "Sends automated daily performance reports on WhatsApp or Slack",
-      "Ready to connect with MongoDB Atlas or Firebase Firestore"
-    ],
-    idealFor: "Wholesalers, Distributors, Logistics, Manufacturing, Law Firms"
-  },
-  {
-    id: "voice-ai",
-    title: "AI Phone Calling Agents",
-    badge: "Next-Gen AI",
-    simpleExplanation: "Human-sounding AI voice agents that can make outbound phone calls or answer customer support calls.",
-    whatItDoes: [
-      "Answers customer phone calls with natural human voice",
-      "Makes follow-up confirmation calls for appointments or orders",
-      "Sends SMS/WhatsApp summary right after the call ends",
-      "Can handle 100+ concurrent calls at the same time"
-    ],
-    idealFor: "Customer Support Desks, Delivery Confirmation, Clinic Reminders"
   }
 ];
 
@@ -103,27 +143,27 @@ export const SIMPLE_COMPARISON = [
   {
     feature: "Speed to Respond to Leads",
     oldWay: "3 to 6 hours (Leads lose interest or buy elsewhere)",
-    tsxWay: "Under 10 seconds (Instant engagement on WhatsApp)"
+    autonyxWay: "Under 10 seconds (Instant engagement on WhatsApp)"
   },
   {
     feature: "Working Hours",
     oldWay: "8 hours/day, staff off on weekends & late nights",
-    tsxWay: "24 hours a day, 7 days a week, 365 days a year"
+    autonyxWay: "24 hours a day, 7 days a week, 365 days a year"
   },
   {
     feature: "Data Entry & CRM",
     oldWay: "Manual typing, missed entries, and human errors",
-    tsxWay: "100% automated real-time sync with zero errors"
+    autonyxWay: "100% automated real-time sync with zero errors"
   },
   {
     feature: "Cost to Scale",
     oldWay: "Must hire more staff and pay rising monthly payroll",
-    tsxWay: "Same AI handles 10x more leads with zero extra staff"
+    autonyxWay: "Same AI handles 10x more leads with zero extra staff"
   },
   {
     feature: "Customer Retention",
     oldWay: "Frustrated customers waiting for replies",
-    tsxWay: "Delighted customers getting instant answers in Urdu/English"
+    autonyxWay: "Delighted customers getting instant answers in Urdu/English"
   }
 ];
 
@@ -143,7 +183,7 @@ export const CASE_STUDIES = [
     client: "Apex Real Estate Holdings",
     industry: "Real Estate & Property",
     challenge: "Lead response time was 4+ hours; agents were losing high-value buyers to faster competitors.",
-    solution: "Deployed TSX Autonomous WhatsApp AI Agent with instant property recommendation & calendar booking.",
+    solution: "Deployed AUTONYX Autonomous WhatsApp AI Agent with instant property recommendation & calendar booking.",
     results: [
       { label: "Response Time", value: "< 6 Seconds" },
       { label: "Booked Viewings", value: "+140% Increase" },
@@ -155,7 +195,7 @@ export const CASE_STUDIES = [
     client: "Nova Luxe E-Commerce",
     industry: "Direct-to-Consumer Retail",
     challenge: "Customer support flooded with order tracking, return requests, and sizing queries during festive surges.",
-    solution: "Integrated Omnichannel TSX Support Agent synced directly with Shopify and Courier APIs.",
+    solution: "Integrated Omnichannel AUTONYX Support Agent synced directly with Shopify and Courier APIs.",
     results: [
       { label: "Ticket Deflection", value: "78% Handled by AI" },
       { label: "CSAT Score", value: "4.9 / 5.0" },
@@ -183,7 +223,7 @@ export const TESTIMONIALS = [
     role: "Managing Director",
     company: "Falcon Logistics Middle East",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-    quote: "Switching from our old setup to TSX AI Automation was a night and day difference. Our logistics tracking and WhatsApp dispatch system is now 100% autonomous. The Karachi engineering team delivered world-class work.",
+    quote: "Switching from our old setup to AUTONYX AI Automation was a night and day difference. Our logistics tracking and WhatsApp dispatch system is now 100% autonomous. The Karachi engineering team delivered world-class work.",
     rating: 5
   },
   {
@@ -191,7 +231,7 @@ export const TESTIMONIALS = [
     role: "Head of Growth",
     company: "Vanguard Digital Media (UK)",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
-    quote: "TSX AI's lead qualification pipeline transformed our inbound sales. We went from losing 40% of weekend leads to booking demos in under 3 minutes automatically on WhatsApp.",
+    quote: "AUTONYX AI's lead qualification pipeline transformed our inbound sales. We went from losing 40% of weekend leads to booking demos in under 3 minutes automatically on WhatsApp.",
     rating: 5
   },
   {
@@ -199,7 +239,7 @@ export const TESTIMONIALS = [
     role: "Founder & CEO",
     company: "Qureshi Retail Group",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
-    quote: "TSX AI Automation built our entire customer care bot on WhatsApp and integrated it with our local warehouse system. Flawless execution and always accessible on call.",
+    quote: "AUTONYX AI Automation built our entire customer care bot on WhatsApp and integrated it with our local warehouse system. Flawless execution and always accessible on call.",
     rating: 5
   }
 ];
@@ -207,7 +247,7 @@ export const TESTIMONIALS = [
 export const FAQS = [
   {
     question: "How will this help my business make more money?",
-    answer: "Most businesses lose 40% of potential sales simply because they reply too late. When a lead messages your ad or website, TSX AI replies on WhatsApp within 10 seconds, answers their questions in Urdu or English, and books them directly for a call or order before they check a competitor."
+    answer: "Most businesses lose 40% of potential sales simply because they reply too late. When a lead messages your ad or website, AUTONYX AI replies on WhatsApp within 10 seconds, answers their questions in Urdu or English, and books them directly for a call or order before they check a competitor."
   },
   {
     question: "Does the WhatsApp bot understand Roman Urdu and voice notes?",
@@ -227,6 +267,6 @@ export const FAQS = [
   },
   {
     question: "Where is your team located and how can I contact you?",
-    answer: "Our headquarters is located in Karachi, Pakistan. You can call or WhatsApp us directly at 03363925950 or email us at tsxaiautomation@gmail.com."
+    answer: "Our headquarters is located in Karachi, Pakistan. You can call or WhatsApp us directly at +92 336 3925950 or +92 314 1151571, or email us at autonyxaiautomation@gmail.com."
   }
 ];

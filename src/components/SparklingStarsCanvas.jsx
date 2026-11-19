@@ -27,12 +27,12 @@ export default function SparklingStarsCanvas() {
 
     const colors = [
       '#FFFFFF',
-      '#EDE9FE',
-      '#C4B5FD',
-      '#A78BFA',
-      '#8B5CF6',
-      '#DDD6FE',
-      '#FDE047', // subtle golden sparkle
+      '#FEE2E2',
+      '#FCA5A5',
+      '#EF4444',
+      '#DC2626',
+      '#FF1E44',
+      '#E5E7EB', // metallic silver sparkle
     ];
 
     function initStars() {
@@ -144,10 +144,10 @@ export default function SparklingStarsCanvas() {
         }
 
         ctx.save();
-        ctx.strokeStyle = `rgba(196, 181, 253, ${s.opacity})`;
+        ctx.strokeStyle = `rgba(239, 68, 68, ${s.opacity})`;
         ctx.lineWidth = 1.6;
-        ctx.shadowBlur = 10;
-        ctx.shadowColor = '#C4B5FD';
+        ctx.shadowBlur = 12;
+        ctx.shadowColor = '#EF4444';
         ctx.beginPath();
         ctx.moveTo(s.x, s.y);
         ctx.lineTo(
