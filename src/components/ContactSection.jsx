@@ -317,6 +317,25 @@ export function ContactSection({ onOpenModal }) {
                 />
               </div>
 
+              <input
+                type="email"
+                required
+                placeholder="Email Address *"
+                value={formData.email}
+                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                style={{
+                  padding: '12px 14px',
+                  borderRadius: '10px',
+                  background: 'rgba(255,255,255,0.04)',
+                  border: '1px solid rgba(239,68,68,0.25)',
+                  color: '#fff',
+                  fontSize: '14px',
+                  outline: 'none',
+                  width: '100%',
+                  boxSizing: 'border-box',
+                }}
+              />
+
               <textarea
                 rows={2}
                 placeholder="e.g. AI Voice callers, WhatsApp bot, cold email outreach, full business ERP..."

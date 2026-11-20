@@ -211,6 +211,18 @@ export default function LeadModal({ isOpen, onClose, selectedService }) {
               </div>
             </div>
 
+            <div>
+              <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: '#C9C4E0', marginBottom: 6 }}>Email Address *</label>
+              <input
+                type="email"
+                required
+                value={formData.email}
+                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                placeholder="you@company.com"
+                style={{ width: '100%', padding: '10px 14px', borderRadius: 10, background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(167,139,250,0.25)', color: '#fff', fontSize: 14, outline: 'none', boxSizing: 'border-box' }}
+              />
+            </div>
+
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 12 }}>
               <div>
                 <label style={{ display: 'block', fontSize: 12, fontWeight: 600, color: '#C9C4E0', marginBottom: 6 }}>Company / Brand</label>

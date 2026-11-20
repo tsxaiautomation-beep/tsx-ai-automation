@@ -244,6 +244,30 @@ export function ConsultationModal({ isOpen, onClose }) {
 
             <div>
               <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#D1D5DB', marginBottom: '6px' }}>
+                Email Address *
+              </label>
+              <input
+                type="email"
+                required
+                value={form.email}
+                onChange={(e) => setForm({ ...form, email: e.target.value })}
+                placeholder="you@company.com"
+                style={{
+                  width: '100%',
+                  padding: '11px 14px',
+                  borderRadius: '10px',
+                  background: 'rgba(255,255,255,0.04)',
+                  border: '1px solid rgba(239,68,68,0.25)',
+                  color: '#fff',
+                  fontSize: '14px',
+                  outline: 'none',
+                  boxSizing: 'border-box',
+                }}
+              />
+            </div>
+
+            <div>
+              <label style={{ display: 'block', fontSize: '12px', fontWeight: 600, color: '#D1D5DB', marginBottom: '6px' }}>
                 What would you like to automate?
               </label>
               <textarea
