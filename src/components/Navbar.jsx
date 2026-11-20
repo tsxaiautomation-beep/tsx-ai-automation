@@ -368,7 +368,7 @@ export function Navbar({ onOpenModal }) {
               WhatsApp 2: +92 314 1151571
             </a>
             <a
-              href="mailto:contact@htmaiautomation.com"
+              href="mailto:htm69404@gmail.com"
               style={{
                 width: '100%',
                 background: 'rgba(239, 68, 68, 0.1)',
@@ -387,7 +387,7 @@ export function Navbar({ onOpenModal }) {
                 textDecoration: 'none',
               }}
             >
-              ✉️ contact@htmaiautomation.com
+              ✉️ htm69404@gmail.com
               <span style={{ fontSize: '11px', background: '#EF4444', color: '#fff', padding: '1px 6px', borderRadius: '4px', fontWeight: 700 }}>Fast Reply</span>
             </a>
           </div>

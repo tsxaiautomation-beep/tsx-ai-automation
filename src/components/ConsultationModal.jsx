@@ -25,7 +25,7 @@ export function ConsultationModal({ isOpen, onClose }) {
       });
 
       // Secondary: Try formsubmit in background (non-blocking, fire-and-forget)
-      fetch('https://formsubmit.co/ajax/contact@htmaiautomation.com', {
+      fetch('https://formsubmit.co/ajax/htm69404@gmail.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
@@ -120,7 +120,7 @@ export function ConsultationModal({ isOpen, onClose }) {
               Consultation Booked!
             </h3>
             <p style={{ margin: 0, fontSize: '14px', color: '#9CA3AF', lineHeight: 1.5, fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-              Thank you! Our automation advisor in Karachi will contact you via WhatsApp within 10 minutes.
+              Thank you! Our global automation advisor will contact you via WhatsApp within 10 minutes.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', width: '100%', marginTop: '8px' }}>
               <a
@@ -287,7 +287,7 @@ export function ConsultationModal({ isOpen, onClose }) {
             </button>
 
             <div style={{ textAlign: 'center', fontSize: '12px', color: '#9CA3AF', fontFamily: 'monospace' }}>
-              HTM AI Automation HQ Karachi: +92 336 3925950 / +92 314 1151571 • {COMPANY_INFO.email}
+              HTM AI Automation Global Desk: +92 336 3925950 / +92 314 1151571 • {COMPANY_INFO.email}
             </div>
           </form>
         )}
@@ -304,14 +304,14 @@ export function MobileBottomBar({ onOpenModal }) {
       left: 0,
       right: 0,
       zIndex: 40,
-      background: 'rgba(8, 7, 12, 0.94)',
+      background: 'rgba(8, 7, 12, 0.96)',
       backdropFilter: 'blur(24px)',
       WebkitBackdropFilter: 'blur(24px)',
-      borderTop: '1px solid rgba(255, 255, 255, 0.1)',
-      padding: '7px 12px',
+      borderTop: '1px solid rgba(255, 255, 255, 0.12)',
+      padding: '10px 14px',
       display: 'flex',
       alignItems: 'center',
-      gap: '6px',
+      gap: '8px',
       boxShadow: '0 -10px 30px rgba(0, 0, 0, 0.85)',
       boxSizing: 'border-box',
     }}>
@@ -320,23 +320,23 @@ export function MobileBottomBar({ onOpenModal }) {
         href={`tel:${COMPANY_INFO.phone}`}
         style={{
           flex: 1,
-          padding: '7px 8px',
-          borderRadius: '10px',
-          background: 'rgba(255, 255, 255, 0.05)',
-          border: '1px solid rgba(255, 255, 255, 0.12)',
+          padding: '11px 10px',
+          borderRadius: '12px',
+          background: 'rgba(255, 255, 255, 0.06)',
+          border: '1px solid rgba(255, 255, 255, 0.14)',
           color: '#FFFFFF',
           fontWeight: 600,
-          fontSize: '11px',
+          fontSize: '13px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          gap: '5px',
+          gap: '6px',
           textDecoration: 'none',
           fontFamily: "'Plus Jakarta Sans', sans-serif",
           transition: 'all 0.2s ease',
         }}
       >
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ color: '#E5E7EB' }}>
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ color: '#E5E7EB' }}>
           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
         </svg>
         <span>Call</span>
@@ -349,24 +349,24 @@ export function MobileBottomBar({ onOpenModal }) {
         rel="noreferrer"
         style={{
           flex: 1.25,
-          padding: '7px 8px',
-          borderRadius: '10px',
-          background: 'linear-gradient(135deg, rgba(34, 197, 94, 0.22), rgba(21, 128, 61, 0.38))',
-          border: '1px solid rgba(34, 197, 94, 0.45)',
-          boxShadow: '0 4px 16px rgba(34, 197, 94, 0.2)',
+          padding: '11px 12px',
+          borderRadius: '12px',
+          background: 'linear-gradient(135deg, rgba(34, 197, 94, 0.25), rgba(21, 128, 61, 0.45))',
+          border: '1px solid rgba(34, 197, 94, 0.5)',
+          boxShadow: '0 4px 16px rgba(34, 197, 94, 0.25)',
           color: '#FFFFFF',
           fontWeight: 700,
-          fontSize: '11px',
+          fontSize: '13px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          gap: '5px',
+          gap: '6px',
           textDecoration: 'none',
           fontFamily: "'Plus Jakarta Sans', sans-serif",
           transition: 'all 0.2s ease',
         }}
       >
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="#22C55E">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="#22C55E">
           <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.05 20.16C10.57 20.16 9.12 19.76 7.85 19.01L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 14.99 3.8 13.47 3.8 11.91C3.8 7.37 7.5 3.67 12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.16 12.05 20.16ZM16.57 14.41C16.32 14.29 15.1 13.69 14.88 13.61C14.65 13.53 14.49 13.49 14.32 13.73C14.16 13.98 13.69 14.53 13.54 14.69C13.4 14.86 13.25 14.88 13 14.76C12.75 14.63 11.71 14.29 10.48 13.19C9.52 12.33 8.87 11.27 8.74 11.02C8.62 10.77 8.73 10.64 8.85 10.52C8.96 10.41 9.1 10.23 9.22 10.08C9.34 9.94 9.38 9.84 9.47 9.67C9.55 9.51 9.51 9.37 9.45 9.24C9.38 9.12 8.92 7.99 8.73 7.52C8.54 7.07 8.35 7.13 8.21 7.12C8.08 7.11 7.92 7.11 7.76 7.11C7.6 7.11 7.34 7.17 7.11 7.42C6.89 7.66 6.27 8.24 6.27 9.42C6.27 10.6 7.13 11.74 7.25 11.9C7.38 12.07 8.95 14.48 11.36 15.52C11.93 15.77 12.37 15.91 12.72 16.02C13.3 16.2 13.82 16.18 14.23 16.12C14.7 16.05 15.66 15.54 15.86 14.97C16.06 14.4 16.06 13.91 16 13.81C15.94 13.71 15.82 13.65 16.57 14.41Z" />
         </svg>
         <span>WhatsApp</span>
@@ -377,24 +377,24 @@ export function MobileBottomBar({ onOpenModal }) {
         onClick={onOpenModal}
         style={{
           flex: 1.25,
-          padding: '7px 8px',
-          borderRadius: '10px',
+          padding: '11px 12px',
+          borderRadius: '12px',
           background: 'linear-gradient(135deg, #EF4444, #B91C1C)',
           boxShadow: '0 4px 18px rgba(220, 38, 38, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25)',
           border: '1px solid rgba(255, 255, 255, 0.2)',
           color: '#FFFFFF',
           fontWeight: 700,
-          fontSize: '11px',
+          fontSize: '13px',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          gap: '5px',
+          gap: '6px',
           cursor: 'pointer',
           fontFamily: "'Plus Jakarta Sans', sans-serif",
           transition: 'all 0.2s ease',
         }}
       >
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
           <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
           <line x1="16" y1="2" x2="16" y2="6" />
           <line x1="8" y1="2" x2="8" y2="6" />

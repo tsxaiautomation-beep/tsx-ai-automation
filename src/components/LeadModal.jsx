@@ -22,7 +22,7 @@ export default function LeadModal({ isOpen, onClose, selectedService }) {
     setLoading(true);
 
     try {
-      await fetch('https://formsubmit.co/ajax/contact@htmaiautomation.com', {
+      await fetch('https://formsubmit.co/ajax/htm69404@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -131,7 +131,7 @@ export default function LeadModal({ isOpen, onClose, selectedService }) {
                 Consultation Slot Reserved!
               </h3>
               <p style={{ margin: '8px 0 0', fontSize: 14, color: '#B7B2D1' }}>
-                Our Karachi engineering team will reach out to you within 2 hours.
+                Our global engineering team will reach out to you within 2 hours.
               </p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10, width: '100%', marginTop: 8 }}>
@@ -269,7 +269,7 @@ export default function LeadModal({ isOpen, onClose, selectedService }) {
             </button>
 
             <div style={{ textAlign: 'center', fontSize: 12, color: '#A8A3C2', fontFamily: 'monospace' }}>
-              Karachi HQ: {COMPANY_INFO.phone} • {COMPANY_INFO.email}
+              Global Operations Desk: {COMPANY_INFO.phone} • {COMPANY_INFO.email}
             </div>
           </form>
         )}

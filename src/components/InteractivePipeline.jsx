@@ -10,13 +10,13 @@ export default function InteractivePipeline() {
     ecommerce: {
       title: "1. E-Commerce Order Inquiry",
       source: "WhatsApp Cloud API (+92 336...)",
-      incomingText: "Customer asks on WhatsApp: 'Order #9482 kab tak pohnchay ga?'",
-      agentDecision: "Auto-checked courier API, verified package is out for delivery in Karachi, and dispatched live tracking link to customer within 1.2s."
+      incomingText: "Customer asks on WhatsApp: 'When will Order #9482 arrive?'",
+      agentDecision: "Auto-checked courier API, verified package is out for delivery, and dispatched live tracking link to customer within 1.2s."
     },
     realestate: {
       title: "2. Real Estate Lead Qualification",
       source: "Facebook / Instagram Ad Lead Form",
-      incomingText: "New lead submitted: Adeel Hashmi, Budget PKR 50M (DHA Phase 8 Karachi)",
+      incomingText: "New lead submitted: Sarah Jenkins, Budget $1,500,000 (Luxury Property Portfolio)",
       agentDecision: "AI messaged Adeel on WhatsApp in 8 seconds, shared PDF floorplan brochure, and booked 4:00 PM Google Meet consultation."
     },
     b2b: {

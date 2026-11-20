@@ -4,7 +4,7 @@ export const COMPANY_INFO = {
   tagline: "Automate • Innovate • Grow",
   slogan: "Smarter Solutions. A Smarter Tomorrow.",
   subTagline: "Your Partner in Digital Transformation",
-  description: "We build custom AI chatbots, autonomous workflows, high-performance web systems and cloud integrations that scale your business 24/7. Based in Karachi, Pakistan, serving clients globally.",
+  description: "We build custom AI chatbots, autonomous workflows, high-performance web systems and cloud integrations that scale your business 24/7. Serving international enterprises and growing brands worldwide.",
   logoUrl: "/htm-logo.png",
   bannerUrl: "/htm-banner.jpg",
   phone: "03363925950",
@@ -13,14 +13,14 @@ export const COMPANY_INFO = {
   formattedPhone2: "+92 314 1151571",
   secondaryPhone: "03141151571",
   formattedSecondaryPhone: "+92 314 1151571",
-  bothPhones: "+92 336 3925950 | +92 314 1151571",
+  bothPhones: "+92 336 3925950 | +92 314 1151571 (Global Desk)",
   whatsappUrl: "https://wa.me/923363925950?text=Hi%20HTM%20AI%20Automation!%20I%20want%20to%20automate%20my%20business%20workflows.",
   whatsappUrl2: "https://wa.me/923141151571?text=Hi%20HTM%20AI%20Automation!%20I%20want%20to%20automate%20my%20business%20workflows.",
-  email: "contact@htmaiautomation.com",
-  address: "Pakistan, Karachi",
-  city: "Karachi",
-  country: "Pakistan",
-  workingHours: "Monday - Saturday: 9:00 AM - 10:00 PM PKT (24/7 Automated System Monitoring)",
+  email: "htm69404@gmail.com",
+  address: "International & Global Operations",
+  city: "Global Hub",
+  country: "Worldwide",
+  workingHours: "24/7 Global Automated System Monitoring & Client Support",
   guarantee: "100% Satisfaction Guarantee: We build and optimize until your workflows run flawlessly.",
 };
 
@@ -130,7 +130,7 @@ export const HOW_IT_WORKS_SIMPLE = [
   {
     step: "02",
     title: "We Build & Connect Your System",
-    description: "Our engineering team in Karachi builds your custom AI bot and workflows, connecting your WhatsApp, CRM, and databases.",
+    description: "Our global engineering team builds your custom AI bot and workflows, connecting your WhatsApp, CRM, and databases.",
   },
   {
     step: "03",
@@ -223,7 +223,7 @@ export const TESTIMONIALS = [
     role: "Managing Director",
     company: "Falcon Logistics Middle East",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-    quote: "Switching from our old setup to HTM AI Automation was a night and day difference. Our logistics tracking and WhatsApp dispatch system is now 100% autonomous. The Karachi engineering team delivered world-class work.",
+    quote: "Switching from our old setup to HTM AI Automation was a night and day difference. Our logistics tracking and WhatsApp dispatch system is now 100% autonomous. The engineering team delivered world-class international standards.",
     rating: 5
   },
   {
@@ -267,6 +267,6 @@ export const FAQS = [
   },
   {
     question: "Where is your team located and how can I contact you?",
-    answer: "Our headquarters is located in Karachi, Pakistan. You can call or WhatsApp us directly at +92 336 3925950 or +92 314 1151571, or email us at contact@htmaiautomation.com."
+    answer: "We operate globally, serving businesses across North America, the UK, Europe, the Middle East, and Asia. You can call or WhatsApp our international desk directly at +92 336 3925950 or +92 314 1151571, or email us at htm69404@gmail.com."
   }
 ];

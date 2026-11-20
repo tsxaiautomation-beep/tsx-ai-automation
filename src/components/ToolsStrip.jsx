@@ -119,7 +119,7 @@ export function NumbersBand() {
 }
 
 /* ══════════════════════════════════════════════
-   WE SERVE KARACHI'S TOP INDUSTRIES BAND
+   WE SERVE GLOBAL & INTERNATIONAL INDUSTRIES BAND
 ══════════════════════════════════════════════ */
 export function IndustriesBand() {
   const industries = [
@@ -226,7 +226,7 @@ export function IndustriesBand() {
           gap: '8px',
         }}>
           <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#EF4444', boxShadow: '0 0 8px #EF4444' }} />
-          WE SERVE KARACHI'S TOP INDUSTRIES:
+          WE SERVE TOP GLOBAL & INTERNATIONAL INDUSTRIES:
         </div>
 
         {/* Pills Flex */}

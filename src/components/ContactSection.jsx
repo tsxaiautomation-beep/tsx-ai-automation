@@ -10,8 +10,8 @@ export function ContactSection({ onOpenModal }) {
     e.preventDefault();
     setLoading(true);
     try {
-      // Send direct email notification to contact@htmaiautomation.com
-      await fetch('https://formsubmit.co/ajax/contact@htmaiautomation.com', {
+      // Send direct email notification to htm69404@gmail.com
+      await fetch('https://formsubmit.co/ajax/htm69404@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -119,7 +119,7 @@ export function ContactSection({ onOpenModal }) {
           color: '#D1D5DB',
           maxWidth: '680px',
         }}>
-          Book a free 30-minute discovery session with our Karachi engineering team. We'll map your workflows and provide an exact blueprint for ROI-driven automation.
+          Book a free 30-minute discovery session with our global engineering team. We'll map your workflows and provide an exact blueprint for ROI-driven automation.
         </p>
 
         {/* Buttons */}
@@ -218,7 +218,7 @@ export function ContactSection({ onOpenModal }) {
               <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
               <circle cx="12" cy="10" r="3" />
             </svg>
-            <span>Karachi, Pakistan</span>
+            <span>Global &amp; International Operations 🌍</span>
           </span>
         </div>
 
@@ -525,7 +525,7 @@ export function FooterSection() {
                   <circle cx="12" cy="10" r="3" />
                 </svg>
               </div>
-              <span>Karachi, Pakistan</span>
+              <span>Global &amp; International Operations 🌍</span>
             </div>
           </div>
         </div>
@@ -536,7 +536,7 @@ export function FooterSection() {
       <div style={{ fontSize: '13px', color: '#6B7280', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '8px 20px', alignItems: 'center' }}>
         <span>© {new Date().getFullYear()} HTM AI Automation. All rights reserved.</span>
         <span style={{ opacity: 0.4 }}>|</span>
-        <span>Karachi, Pakistan 🇵🇰</span>
+        <span>Global Operations 🌍</span>
         <span style={{ opacity: 0.4 }}>|</span>
         <a href={`mailto:${COMPANY_INFO.email}`} style={{ color: '#6B7280', textDecoration: 'none' }} onMouseEnter={e => e.currentTarget.style.color = '#EF4444'} onMouseLeave={e => e.currentTarget.style.color = '#6B7280'}>
           {COMPANY_INFO.email}

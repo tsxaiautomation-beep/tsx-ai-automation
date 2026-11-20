@@ -19,7 +19,7 @@ const AUTOMATIONS = [
       metric3: { label: 'Hours saved', value: 62, suffix: ' h' },
     },
     liveEvent: 'Just now: Inquiry from Clifton Phase 5 qualified with PKR 400k budget.',
-    sampleQuery: 'Incoming Web Enquiry: "Need AI bot & web system for my Shopify store in Karachi"',
+    sampleQuery: 'Incoming Web Enquiry: "Need AI bot & web system for my international e-commerce store"',
     sampleResponse: 'HTM AI Automation Engine: Qualified High-Intent Lead. Synced to CRM & WhatsApp alert dispatched.',
   },
   {

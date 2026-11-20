@@ -46,8 +46,8 @@ app.get('/api/health', (req, res) => {
     status: 'online',
     brand: 'HTM AI Automation',
     tagline: 'Automate • Innovate • Grow',
-    headquarters: 'Karachi, Pakistan',
-    email: 'contact@htmaiautomation.com',
+    headquarters: 'Global Operations (Serving Worldwide)',
+    email: 'htm69404@gmail.com',
     database: mongoDb ? 'MongoDB Atlas' : 'Local JSON Store (Ready for MongoDB/Firebase)',
     timestamp: new Date().toISOString(),
   });
@@ -103,7 +103,7 @@ app.post(['/api/contact', '/api/leads'], async (req, res) => {
       message: replyMessage,
       leadId: newLead.id,
       contact: {
-        email: 'contact@htmaiautomation.com',
+        email: 'htm69404@gmail.com',
       }
     });
   } catch (error) {
@@ -139,6 +139,6 @@ if (fs.existsSync(distDir)) {
 
 app.listen(PORT, () => {
   console.log(`🚀 HTM AI Automation Backend running on http://localhost:${PORT}`);
-  console.log(`📞 Contact: 03363925950 / 03141151571 | 📧 contact@htmaiautomation.com | 📍 Karachi, Pakistan`);
+  console.log(`📞 Contact: 03363925950 / 03141151571 | 📧 htm69404@gmail.com | 🌍 Global Operations`);
 });
 

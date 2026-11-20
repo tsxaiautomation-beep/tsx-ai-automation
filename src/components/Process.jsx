@@ -4,7 +4,7 @@ import { HOW_IT_WORKS_SIMPLE } from '../data/companyData';
 const steps = [
   { n: '01', title: 'Free Discovery Call', desc: 'We learn how your business runs and find the tasks wasting the most time. 100% free, no commitment.' },
   { n: '02', title: 'Clear Plan & Proposal', desc: 'You get a plain-language plan: what we build, how it works, when it will be ready, and the exact cost — no hidden fees.' },
-  { n: '03', title: 'Build & Test', desc: 'Our Karachi engineering team builds your custom AI automation and tests it with real scenarios. Nothing goes live without your approval.' },
+  { n: '03', title: 'Build & Test', desc: 'Our global engineering team builds your custom AI automation and tests it with real scenarios. Nothing goes live without your approval.' },
   { n: '04', title: 'Launch & Support', desc: 'We go live in 7-14 days, train your team, and stay with you to improve and expand as your business grows.', highlight: true },
 ];
 
