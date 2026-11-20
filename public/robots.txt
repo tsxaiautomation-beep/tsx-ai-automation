@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://htmaiautomation.com/sitemap.xml

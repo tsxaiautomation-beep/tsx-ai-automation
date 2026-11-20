@@ -44,10 +44,10 @@ if (process.env.MONGODB_URI) {
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'online',
-    brand: 'AUTONYX AI Automation',
+    brand: 'HTM AI Automation',
     tagline: 'Automate • Innovate • Grow',
     headquarters: 'Karachi, Pakistan',
-    email: 'autonyxaiautomation@gmail.com',
+    email: 'contact@htmaiautomation.com',
     database: mongoDb ? 'MongoDB Atlas' : 'Local JSON Store (Ready for MongoDB/Firebase)',
     timestamp: new Date().toISOString(),
   });
@@ -73,7 +73,7 @@ app.post(['/api/contact', '/api/leads'], async (req, res) => {
       budget: budget || 'Standard',
       message: message || details || '',
       status: 'NEW',
-      source: 'AUTONYX AI Website',
+      source: 'HTM AI Automation Website',
       createdAt: new Date().toISOString(),
     };
 
@@ -103,7 +103,7 @@ app.post(['/api/contact', '/api/leads'], async (req, res) => {
       message: replyMessage,
       leadId: newLead.id,
       contact: {
-        email: 'autonyxaiautomation@gmail.com',
+        email: 'contact@htmaiautomation.com',
       }
     });
   } catch (error) {
@@ -138,7 +138,7 @@ if (fs.existsSync(distDir)) {
 }
 
 app.listen(PORT, () => {
-  console.log(`🚀 AUTONYX AI Automation Backend running on http://localhost:${PORT}`);
-  console.log(`📞 Contact: 03363925950 / 03141151571 | 📧 autonyxaiautomation@gmail.com | 📍 Karachi, Pakistan`);
+  console.log(`🚀 HTM AI Automation Backend running on http://localhost:${PORT}`);
+  console.log(`📞 Contact: 03363925950 / 03141151571 | 📧 contact@htmaiautomation.com | 📍 Karachi, Pakistan`);
 });
 

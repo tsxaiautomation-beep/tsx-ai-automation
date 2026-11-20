@@ -25,11 +25,11 @@ export function ConsultationModal({ isOpen, onClose }) {
       });
 
       // Secondary: Try formsubmit in background (non-blocking, fire-and-forget)
-      fetch('https://formsubmit.co/ajax/autonyxaiautomation@gmail.com', {
+      fetch('https://formsubmit.co/ajax/contact@htmaiautomation.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
-          _subject: `New AUTONYX Consultation: ${form.name}`,
+          _subject: `New HTM AI Automation Consultation: ${form.name}`,
           _template: 'table',
           _captcha: 'false',
           'Client Name': form.name,
@@ -37,7 +37,7 @@ export function ConsultationModal({ isOpen, onClose }) {
           'Client Email': form.email || 'Not provided',
           'Automation Requirements': form.details || 'Book a free consultation',
           'Submitted At': new Date().toLocaleString(),
-          'Source': 'AUTONYX AI Website',
+          'Source': 'HTM AI Automation Website',
         }),
       }).catch(() => {}); // Silently ignore if external fails
 
@@ -51,7 +51,7 @@ export function ConsultationModal({ isOpen, onClose }) {
   };
 
   const whatsappMsg = encodeURIComponent(
-    `Hello AUTONYX AI Automation! My name is ${form.name || 'a client'}. I would like to book a free consultation for business automation.`
+    `Hello HTM AI Automation! My name is ${form.name || 'a client'}. I would like to book a free consultation for business automation.`
   );
 
   return (
@@ -287,7 +287,7 @@ export function ConsultationModal({ isOpen, onClose }) {
             </button>
 
             <div style={{ textAlign: 'center', fontSize: '12px', color: '#9CA3AF', fontFamily: 'monospace' }}>
-              AUTONYX HQ Karachi: +92 336 3925950 / +92 314 1151571 • {COMPANY_INFO.email}
+              HTM AI Automation HQ Karachi: +92 336 3925950 / +92 314 1151571 • {COMPANY_INFO.email}
             </div>
           </form>
         )}

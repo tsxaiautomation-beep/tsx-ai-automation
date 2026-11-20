@@ -20,7 +20,7 @@ const AUTOMATIONS = [
     },
     liveEvent: 'Just now: Inquiry from Clifton Phase 5 qualified with PKR 400k budget.',
     sampleQuery: 'Incoming Web Enquiry: "Need AI bot & web system for my Shopify store in Karachi"',
-    sampleResponse: 'AUTONYX Engine: Qualified High-Intent Lead. Synced to CRM & WhatsApp alert dispatched.',
+    sampleResponse: 'HTM AI Automation Engine: Qualified High-Intent Lead. Synced to CRM & WhatsApp alert dispatched.',
   },
   {
     id: 'whatsapp-bot',
@@ -40,7 +40,7 @@ const AUTOMATIONS = [
     },
     liveEvent: 'Just now: Roman Urdu pricing inquiry answered & invoice link shared in 1.8s.',
     sampleQuery: 'Customer: "Assalam o alaikum, rate kiya hai aur delivery kab tak milegi?"',
-    sampleResponse: 'AUTONYX Bot: "Walaikum Assalam! Price PKR 4,500 hai with free 2-day delivery across Pakistan."',
+    sampleResponse: 'HTM AI Automation Bot: "Walaikum Assalam! Price PKR 4,500 hai with free 2-day delivery across Pakistan."',
   },
   {
     id: 'invoice-reminders',
@@ -60,7 +60,7 @@ const AUTOMATIONS = [
     },
     liveEvent: 'Just now: Payment of PKR 85,000 received for Invoice #1042.',
     sampleQuery: 'Ledger Trigger: Invoice #1042 due in 24 hrs for Client "Apex Retail"',
-    sampleResponse: 'AUTONYX Chaser: Sent WhatsApp reminder with secure payment link. Receipt auto-logged.',
+    sampleResponse: 'HTM AI Automation Chaser: Sent WhatsApp reminder with secure payment link. Receipt auto-logged.',
   },
   {
     id: 'weekly-report',
@@ -80,7 +80,7 @@ const AUTOMATIONS = [
     },
     liveEvent: 'Just now: Weekly performance digest generated & sent to Founder WhatsApp.',
     sampleQuery: 'System Trigger: Sunday 8 PM - Pulling Stripe, Meta Ads, and WhatsApp lead count',
-    sampleResponse: 'AUTONYX Reporter: PDF digest synthesized: +38% conversion rate, sent to CEO inbox.',
+    sampleResponse: 'HTM AI Automation Reporter: PDF digest synthesized: +38% conversion rate, sent to CEO inbox.',
   },
   {
     id: 'voice-caller',
@@ -100,7 +100,7 @@ const AUTOMATIONS = [
     },
     liveEvent: 'Just now: AI Voice Agent closed 4 PM appointment confirmation over phone in Roman Urdu.',
     sampleQuery: 'Customer: "Assalam o alaikum, mujhe booking confirmation ke baare mein poochhna hai"',
-    sampleResponse: 'AUTONYX Voice AI: "Walaikum Assalam! Aapki kal 4 PM slot lock ho chuki hai. WhatsApp par location bhej di hai."',
+    sampleResponse: 'HTM AI Automation Voice AI: "Walaikum Assalam! Aapki kal 4 PM slot lock ho chuki hai. WhatsApp par location bhej di hai."',
   },
 ];
 
@@ -122,7 +122,7 @@ export function Hero({ onOpenModal }) {
 
     setTimeout(() => {
       setActiveStepIndex(1);
-      setLiveToast({ text: `🧠 Step 2/4: AUTONYX AI analyzing with ${currentAuto.steps[1].title}...`, status: 'running' });
+      setLiveToast({ text: `🧠 Step 2/4: HTM AI Automation analyzing with ${currentAuto.steps[1].title}...`, status: 'running' });
     }, 1200);
 
     setTimeout(() => {
@@ -241,7 +241,7 @@ export function Hero({ onOpenModal }) {
             boxShadow: '0 0 12px #EF4444',
             display: 'inline-block',
           }} />
-          <span>AUTONYX AI</span>
+          <span>HTM AI Automation</span>
           <span style={{ opacity: 0.5 }}>•</span>
           <span>Automate • Innovate • Grow</span>
         </div>
@@ -497,7 +497,7 @@ export function Hero({ onOpenModal }) {
             </div>
             <div>
               <div style={{ fontSize: '13px', fontWeight: 600, color: '#FFFFFF' }}>New lead captured</div>
-              <div style={{ fontSize: '11px', color: '#FCA5A5' }}>Qualified by AUTONYX AI, just now</div>
+              <div style={{ fontSize: '11px', color: '#FCA5A5' }}>Qualified by HTM AI Automation, just now</div>
             </div>
           </div>
 
@@ -535,7 +535,7 @@ export function Hero({ onOpenModal }) {
         </div>
 
         {/* ============================================================== */}
-        {/* INTERACTIVE WORKING DASHBOARD MOCKUP (AUTONYX LIVE DEMO)       */}
+        {/* INTERACTIVE WORKING DASHBOARD MOCKUP (HTM AI Automation LIVE DEMO)       */}
         {/* ============================================================== */}
         <div id="live-demo" style={{
           position: 'relative',
@@ -576,7 +576,7 @@ export function Hero({ onOpenModal }) {
             </div>
             <div>
               <div style={{ fontSize: '14px', fontWeight: 600, color: '#FFFFFF' }}>New lead captured</div>
-              <div style={{ fontSize: '12px', color: '#FCA5A5', marginTop: '2px' }}>Qualified by AUTONYX AI, just now</div>
+              <div style={{ fontSize: '12px', color: '#FCA5A5', marginTop: '2px' }}>Qualified by HTM AI Automation, just now</div>
             </div>
           </div>
 
@@ -660,7 +660,7 @@ export function Hero({ onOpenModal }) {
                   <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: '#10B981', opacity: 0.8, display: 'inline-block' }} />
                 </div>
                 <div style={{ fontSize: '13px', color: '#FEE2E2', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap', minWidth: 0 }}>
-                  <span>AUTONYX Automation Dashboard</span>
+                  <span>HTM AI Automation Automation Dashboard</span>
                   <span style={{
                     fontSize: '10px',
                     color: '#EF4444',
@@ -864,7 +864,7 @@ export function Hero({ onOpenModal }) {
                   color: '#9CA3AF',
                   lineHeight: 1.5,
                 }}>
-                  💡 <strong style={{ color: '#FEE2E2' }}>AUTONYX Live Demo:</strong> Tap any automation above or click <strong style={{ color: '#EF4444' }}>"Test Workflow Live"</strong> to simulate execution.
+                  💡 <strong style={{ color: '#FEE2E2' }}>HTM AI Automation Live Demo:</strong> Tap any automation above or click <strong style={{ color: '#EF4444' }}>"Test Workflow Live"</strong> to simulate execution.
                 </div>
               </div>
 

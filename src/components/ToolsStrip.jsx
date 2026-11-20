@@ -380,7 +380,7 @@ export function HubDiagram() {
           Connect every tool you already use
         </h2>
         <p style={{ margin: 0, fontSize: 'clamp(13.5px,1.8vw,17px)', lineHeight: 1.7, color: '#9CA3AF', fontFamily: "'Plus Jakarta Sans',sans-serif" }}>
-          Messages, leads and business data flow into <strong style={{ color: '#FFFFFF' }}>AUTONYX AI</strong>, which decides and executes actions in real-time.
+          Messages, leads and business data flow into <strong style={{ color: '#FFFFFF' }}>HTM AI Automation</strong>, which decides and executes actions in real-time.
         </p>
       </div>
 
@@ -392,7 +392,7 @@ export function HubDiagram() {
           viewBox="0 0 1000 540"
           width="100%"
           style={{ display: 'block', margin: '0 auto', overflow: 'hidden' }}
-          aria-label="AUTONYX AI Hub Diagram (Desktop)"
+          aria-label="HTM AI Automation Hub Diagram (Desktop)"
         >
           <defs>
             {/* Gradients */}
@@ -461,7 +461,7 @@ export function HubDiagram() {
           {/* 6. Hub -> Slack (bottom-right) */}
           <path d="M604,325 C650,325 660,448 738,448" fill="none" stroke="url(#desk-flow-r)" strokeWidth="2.5" strokeDasharray="8 7" strokeLinecap="round" style={{ animation: 'dash 1.7s linear infinite' }}/>
 
-          {/* ── CENTRAL AUTONYX CORE ── */}
+          {/* ── CENTRAL HTM AI Automation CORE ── */}
           {/* Pulsing ring */}
           <circle cx="500" cy="270" r="126" fill="none" stroke="#EF4444" strokeWidth="1.5" strokeOpacity="0.35" strokeDasharray="5 7">
             <animate attributeName="r" values="124;130;124" dur="3s" repeatCount="indefinite" />
@@ -494,7 +494,7 @@ export function HubDiagram() {
 
           {/* Central Logo Disk */}
           <circle cx="500" cy="270" r="82" fill="#000000" stroke="#DC2626" strokeWidth="2.5"/>
-          <image href="/autonyx-logo.png" x="420" y="190" width="160" height="160" clipPath="url(#desk-logo-clip)" preserveAspectRatio="xMidYMid meet"/>
+          <image href="/htm-logo.png" x="420" y="190" width="160" height="160" clipPath="url(#desk-logo-clip)" preserveAspectRatio="xMidYMid meet"/>
           <circle cx="500" cy="270" r="82" fill="none" stroke="rgba(255,255,255,0.3)" strokeWidth="1.2"/>
           <circle cx="500" cy="270" r="82" fill="none" stroke="#EF4444" strokeWidth="2" strokeOpacity="0.8"/>
 
@@ -632,7 +632,7 @@ export function HubDiagram() {
           viewBox="0 0 390 560"
           width="100%"
           style={{ display: 'block', margin: '0 auto', overflow: 'hidden' }}
-          aria-label="AUTONYX AI Hub Diagram (Mobile)"
+          aria-label="HTM AI Automation Hub Diagram (Mobile)"
         >
           <defs>
             <radialGradient id="mob-halo" cx="50%" cy="50%" r="50%">
@@ -680,7 +680,7 @@ export function HubDiagram() {
           {/* Hub -> Right bot */}
           <path d="M236,314 C244,314 242,475 266,475" fill="none" stroke="url(#mob-flow-r)" strokeWidth="2" strokeDasharray="6 5" strokeLinecap="round" style={{ animation: 'dash 1.4s linear infinite' }}/>
 
-          {/* ── CENTRAL AUTONYX CORE (Mobile) ── */}
+          {/* ── CENTRAL HTM AI Automation CORE (Mobile) ── */}
           <circle cx="195" cy="280" r="68" fill="none" stroke="#EF4444" strokeWidth="1.2" strokeOpacity="0.35" strokeDasharray="4 6">
             <animate attributeName="r" values="66;72;66" dur="3s" repeatCount="indefinite" />
             <animate attributeName="stroke-opacity" values="0.2;0.45;0.2" dur="3s" repeatCount="indefinite" />
@@ -711,7 +711,7 @@ export function HubDiagram() {
 
           {/* Central Logo Disk */}
           <circle cx="195" cy="280" r="44" fill="#000000" stroke="#DC2626" strokeWidth="2"/>
-          <image href="/autonyx-logo.png" x="151" y="236" width="88" height="88" clipPath="url(#mob-logo-clip)" preserveAspectRatio="xMidYMid meet"/>
+          <image href="/htm-logo.png" x="151" y="236" width="88" height="88" clipPath="url(#mob-logo-clip)" preserveAspectRatio="xMidYMid meet"/>
           <circle cx="195" cy="280" r="44" fill="none" stroke="#EF4444" strokeWidth="1.5" strokeOpacity="0.75"/>
 
           {/* ══════════════════════════════════════

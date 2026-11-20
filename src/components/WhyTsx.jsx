@@ -20,7 +20,7 @@ export default function WhyTsx() {
         
         {/* Left */}
         <div style={{ flex: '1 1 400px', minWidth: 0, display: 'flex', flexDirection: 'column', gap: 20 }}>
-          <div style={{ fontSize: 14, fontWeight: 600, color: '#A78BFA', letterSpacing: 2 }}>WHY TSX</div>
+          <div style={{ fontSize: 14, fontWeight: 600, color: '#EF4444', letterSpacing: 2 }}>WHY HTM</div>
           <h2 style={{ margin: 0, fontFamily: "'Sora',sans-serif", fontWeight: 700, fontSize: 'clamp(28px,4vw,52px)', lineHeight: 1.12, letterSpacing: -1 }}>
             AI explained simply, built to fit your business
           </h2>

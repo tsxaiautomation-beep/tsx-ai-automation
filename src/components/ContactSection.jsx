@@ -10,15 +10,15 @@ export function ContactSection({ onOpenModal }) {
     e.preventDefault();
     setLoading(true);
     try {
-      // Send direct email notification to tsxaiautomation@gmail.com
-      await fetch('https://formsubmit.co/ajax/tsxaiautomation@gmail.com', {
+      // Send direct email notification to contact@htmaiautomation.com
+      await fetch('https://formsubmit.co/ajax/contact@htmaiautomation.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
         },
         body: JSON.stringify({
-          _subject: `AUTONYX Lead: ${formData.name}`,
+          _subject: `HTM AI Automation Lead: ${formData.name}`,
           _template: 'table',
           _captcha: 'false',
           'Client Name': formData.name,
@@ -26,7 +26,7 @@ export function ContactSection({ onOpenModal }) {
           'Client Email': formData.email || 'Not provided',
           'Message / Details': formData.message || 'Quick consultation request',
           'Submitted At': new Date().toLocaleString(),
-          'Source': 'AUTONYX AI Website - Quick Contact Form',
+          'Source': 'HTM AI Automation Website - Quick Contact Form',
         }),
       });
 
@@ -352,7 +352,7 @@ export function ContactSection({ onOpenModal }) {
                   boxShadow: '0 8px 24px rgba(239,68,68,0.35)',
                 }}
               >
-                {loading ? 'Transmitting Request...' : 'Send Inquiry to AUTONYX →'}
+                {loading ? 'Transmitting Request...' : 'Send Inquiry to HTM AI Automation →'}
               </button>
             </form>
           )}
@@ -379,8 +379,8 @@ export function FooterSection() {
         {/* Brand */}
         <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
           <img
-            src="/autonyx-logo.png"
-            alt="AUTONYX Logo"
+            src="/htm-logo.png"
+            alt="HTM AI Automation Logo"
             style={{
               width: '42px',
               height: '42px',
@@ -393,8 +393,8 @@ export function FooterSection() {
           />
           <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.25 }}>
             <span style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: '17px', letterSpacing: '-0.3px', color: '#FFFFFF' }}>
-              AUTONY<span style={{ color: '#EF4444' }}>X</span>{' '}
-              <span style={{ fontSize: '12px', fontWeight: 700, color: '#EF4444', letterSpacing: '1px' }}>AI</span>
+              HTM{' '}
+              <span style={{ fontSize: '12px', fontWeight: 700, color: '#EF4444', letterSpacing: '1px' }}>AI AUTOMATION</span>
             </span>
             <span style={{ fontSize: '12px', color: '#9CA3AF' }}>
               Automate • Innovate • Grow
@@ -436,7 +436,7 @@ export function FooterSection() {
           </h4>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '13.5px' }}>
             <a href="#why" style={{ color: '#9CA3AF', textDecoration: 'none', transition: 'color 0.2s ease' }} onMouseEnter={e => e.currentTarget.style.color = '#EF4444'} onMouseLeave={e => e.currentTarget.style.color = '#9CA3AF'}>
-              Why AUTONYX AI
+              Why HTM AI Automation
             </a>
             <a href="#compare" style={{ color: '#9CA3AF', textDecoration: 'none', transition: 'color 0.2s ease' }} onMouseEnter={e => e.currentTarget.style.color = '#EF4444'} onMouseLeave={e => e.currentTarget.style.color = '#9CA3AF'}>
               Before &amp; After Comparison
@@ -534,7 +534,7 @@ export function FooterSection() {
 
       {/* Copyright */}
       <div style={{ fontSize: '13px', color: '#6B7280', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '8px 20px', alignItems: 'center' }}>
-        <span>© {new Date().getFullYear()} AUTONYX AI Automation. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} HTM AI Automation. All rights reserved.</span>
         <span style={{ opacity: 0.4 }}>|</span>
         <span>Karachi, Pakistan 🇵🇰</span>
         <span style={{ opacity: 0.4 }}>|</span>

@@ -1,12 +1,12 @@
 export const COMPANY_INFO = {
-  name: "AUTONYX AI Automation",
-  brandShort: "AUTONYX",
+  name: "HTM AI Automation",
+  brandShort: "HTM AI",
   tagline: "Automate • Innovate • Grow",
   slogan: "Smarter Solutions. A Smarter Tomorrow.",
   subTagline: "Your Partner in Digital Transformation",
   description: "We build custom AI chatbots, autonomous workflows, high-performance web systems and cloud integrations that scale your business 24/7. Based in Karachi, Pakistan, serving clients globally.",
-  logoUrl: "/autonyx-logo.png",
-  bannerUrl: "/autonyx-banner.jpg",
+  logoUrl: "/htm-logo.png",
+  bannerUrl: "/htm-banner.jpg",
   phone: "03363925950",
   formattedPhone: "+92 336 3925950",
   phone2: "03141151571",
@@ -14,9 +14,9 @@ export const COMPANY_INFO = {
   secondaryPhone: "03141151571",
   formattedSecondaryPhone: "+92 314 1151571",
   bothPhones: "+92 336 3925950 | +92 314 1151571",
-  whatsappUrl: "https://wa.me/923363925950?text=Hi%20AUTONYX%20AI!%20I%20want%20to%20automate%20my%20business%20workflows.",
-  whatsappUrl2: "https://wa.me/923141151571?text=Hi%20AUTONYX%20AI!%20I%20want%20to%20automate%20my%20business%20workflows.",
-  email: "autonyxaiautomation@gmail.com",
+  whatsappUrl: "https://wa.me/923363925950?text=Hi%20HTM%20AI%20Automation!%20I%20want%20to%20automate%20my%20business%20workflows.",
+  whatsappUrl2: "https://wa.me/923141151571?text=Hi%20HTM%20AI%20Automation!%20I%20want%20to%20automate%20my%20business%20workflows.",
+  email: "contact@htmaiautomation.com",
   address: "Pakistan, Karachi",
   city: "Karachi",
   country: "Pakistan",
@@ -143,27 +143,27 @@ export const SIMPLE_COMPARISON = [
   {
     feature: "Speed to Respond to Leads",
     oldWay: "3 to 6 hours (Leads lose interest or buy elsewhere)",
-    autonyxWay: "Under 10 seconds (Instant engagement on WhatsApp)"
+    htmWay: "Under 10 seconds (Instant engagement on WhatsApp)"
   },
   {
     feature: "Working Hours",
     oldWay: "8 hours/day, staff off on weekends & late nights",
-    autonyxWay: "24 hours a day, 7 days a week, 365 days a year"
+    htmWay: "24 hours a day, 7 days a week, 365 days a year"
   },
   {
     feature: "Data Entry & CRM",
     oldWay: "Manual typing, missed entries, and human errors",
-    autonyxWay: "100% automated real-time sync with zero errors"
+    htmWay: "100% automated real-time sync with zero errors"
   },
   {
     feature: "Cost to Scale",
     oldWay: "Must hire more staff and pay rising monthly payroll",
-    autonyxWay: "Same AI handles 10x more leads with zero extra staff"
+    htmWay: "Same AI handles 10x more leads with zero extra staff"
   },
   {
     feature: "Customer Retention",
     oldWay: "Frustrated customers waiting for replies",
-    autonyxWay: "Delighted customers getting instant answers in Urdu/English"
+    htmWay: "Delighted customers getting instant answers in Urdu/English"
   }
 ];
 
@@ -183,7 +183,7 @@ export const CASE_STUDIES = [
     client: "Apex Real Estate Holdings",
     industry: "Real Estate & Property",
     challenge: "Lead response time was 4+ hours; agents were losing high-value buyers to faster competitors.",
-    solution: "Deployed AUTONYX Autonomous WhatsApp AI Agent with instant property recommendation & calendar booking.",
+    solution: "Deployed HTM AI Automation Autonomous WhatsApp AI Agent with instant property recommendation & calendar booking.",
     results: [
       { label: "Response Time", value: "< 6 Seconds" },
       { label: "Booked Viewings", value: "+140% Increase" },
@@ -195,7 +195,7 @@ export const CASE_STUDIES = [
     client: "Nova Luxe E-Commerce",
     industry: "Direct-to-Consumer Retail",
     challenge: "Customer support flooded with order tracking, return requests, and sizing queries during festive surges.",
-    solution: "Integrated Omnichannel AUTONYX Support Agent synced directly with Shopify and Courier APIs.",
+    solution: "Integrated Omnichannel HTM AI Automation Support Agent synced directly with Shopify and Courier APIs.",
     results: [
       { label: "Ticket Deflection", value: "78% Handled by AI" },
       { label: "CSAT Score", value: "4.9 / 5.0" },
@@ -223,7 +223,7 @@ export const TESTIMONIALS = [
     role: "Managing Director",
     company: "Falcon Logistics Middle East",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-    quote: "Switching from our old setup to AUTONYX AI Automation was a night and day difference. Our logistics tracking and WhatsApp dispatch system is now 100% autonomous. The Karachi engineering team delivered world-class work.",
+    quote: "Switching from our old setup to HTM AI Automation was a night and day difference. Our logistics tracking and WhatsApp dispatch system is now 100% autonomous. The Karachi engineering team delivered world-class work.",
     rating: 5
   },
   {
@@ -231,7 +231,7 @@ export const TESTIMONIALS = [
     role: "Head of Growth",
     company: "Vanguard Digital Media (UK)",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
-    quote: "AUTONYX AI's lead qualification pipeline transformed our inbound sales. We went from losing 40% of weekend leads to booking demos in under 3 minutes automatically on WhatsApp.",
+    quote: "HTM AI Automation's lead qualification pipeline transformed our inbound sales. We went from losing 40% of weekend leads to booking demos in under 3 minutes automatically on WhatsApp.",
     rating: 5
   },
   {
@@ -239,7 +239,7 @@ export const TESTIMONIALS = [
     role: "Founder & CEO",
     company: "Qureshi Retail Group",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
-    quote: "AUTONYX AI Automation built our entire customer care bot on WhatsApp and integrated it with our local warehouse system. Flawless execution and always accessible on call.",
+    quote: "HTM AI Automation built our entire customer care bot on WhatsApp and integrated it with our local warehouse system. Flawless execution and always accessible on call.",
     rating: 5
   }
 ];
@@ -247,7 +247,7 @@ export const TESTIMONIALS = [
 export const FAQS = [
   {
     question: "How will this help my business make more money?",
-    answer: "Most businesses lose 40% of potential sales simply because they reply too late. When a lead messages your ad or website, AUTONYX AI replies on WhatsApp within 10 seconds, answers their questions in Urdu or English, and books them directly for a call or order before they check a competitor."
+    answer: "Most businesses lose 40% of potential sales simply because they reply too late. When a lead messages your ad or website, HTM AI Automation replies on WhatsApp within 10 seconds, answers their questions in Urdu or English, and books them directly for a call or order before they check a competitor."
   },
   {
     question: "Does the WhatsApp bot understand Roman Urdu and voice notes?",
@@ -267,6 +267,6 @@ export const FAQS = [
   },
   {
     question: "Where is your team located and how can I contact you?",
-    answer: "Our headquarters is located in Karachi, Pakistan. You can call or WhatsApp us directly at +92 336 3925950 or +92 314 1151571, or email us at autonyxaiautomation@gmail.com."
+    answer: "Our headquarters is located in Karachi, Pakistan. You can call or WhatsApp us directly at +92 336 3925950 or +92 314 1151571, or email us at contact@htmaiautomation.com."
   }
 ];

@@ -51,17 +51,17 @@ export default function BeforeVsAfter({ onOpenAuditModal }) {
           ))}
         </div>
 
-        {/* With TSX */}
+        {/* With HTM */}
         <div style={{
           flex: '1 1 400px', minWidth: 0, position: 'relative',
-          background: 'linear-gradient(160deg,rgba(139,92,246,0.26),rgba(109,40,217,0.08))',
-          border: '1px solid rgba(167,139,250,0.55)', borderRadius: 26,
+          background: 'linear-gradient(160deg,rgba(239,68,68,0.22),rgba(185,28,28,0.08))',
+          border: '1px solid rgba(239,68,68,0.5)', borderRadius: 26,
           padding: 40, boxSizing: 'border-box',
           display: 'flex', flexDirection: 'column', gap: 20,
-          boxShadow: '0 30px 100px rgba(109,40,217,0.35)',
+          boxShadow: '0 30px 100px rgba(220,38,38,0.25)',
         }}>
           <div style={{ fontFamily: "'Sora',sans-serif", fontWeight: 600, fontSize: 22 }}>
-            ✅ With TSX AI Automation
+            ✅ With HTM AI Automation
           </div>
           {rightItems.map(t => (
             <div key={t} style={{ display: 'flex', gap: 14, alignItems: 'flex-start', color: '#F5F3FF', fontSize: 16 }}>

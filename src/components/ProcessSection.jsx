@@ -248,7 +248,7 @@ export function WhySection() {
             fontFamily: "'Plus Jakarta Sans', sans-serif",
           }}>
             <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#EF4444', boxShadow: '0 0 10px #EF4444' }} />
-            WHY AUTONYX
+            WHY HTM AI Automation
           </div>
           <h2 style={{
             margin: 0,
@@ -262,7 +262,7 @@ export function WhySection() {
             Cutting-Edge AI. <span style={{ background: 'linear-gradient(180deg,#FFFFFF,#EF4444)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }}>Engineered for Real Revenue.</span>
           </h2>
           <p style={{ margin: 0, fontSize: 'clamp(14.5px, 1.8vw, 17px)', lineHeight: 1.7, color: '#9CA3AF', fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-            You do not need to decipher AI models or technical infrastructure. At AUTONYX, we translate complex neural workflows and automations into reliable digital engines for your company.
+            You do not need to decipher AI models or technical infrastructure. At HTM AI Automation, we translate complex neural workflows and automations into reliable digital engines for your company.
           </p>
 
           <div style={{ marginTop: '10px', display: 'flex', flexDirection: 'column', gap: '14px' }}>
@@ -361,10 +361,10 @@ export function FaqSection() {
   const faqs = [
     {
       q: 'Do I or my team need any technical coding skills?',
-      a: 'Absolutely not. AUTONYX builds and configures everything turnkey. We provide an intuitive dashboard and train your team on how to manage everyday tasks with zero code.',
+      a: 'Absolutely not. HTM AI Automation builds and configures everything turnkey. We provide an intuitive dashboard and train your team on how to manage everyday tasks with zero code.',
     },
     {
-      q: 'Which platforms and tools can AUTONYX connect with?',
+      q: 'Which platforms and tools can HTM AI Automation connect with?',
       a: 'We integrate with WhatsApp Business API, Gmail/Outlook, HubSpot, Salesforce, Google Sheets, Shopify, Stripe, Slack, custom SQL databases, and internal REST APIs.',
     },
     {
@@ -373,7 +373,7 @@ export function FaqSection() {
     },
     {
       q: 'What happens if our business needs to expand or modify workflows later?',
-      a: 'AUTONYX provides continuous post-launch support and SLA guarantees. As your traffic, team, or processes evolve, we adapt and expand your automations immediately.',
+      a: 'HTM AI Automation provides continuous post-launch support and SLA guarantees. As your traffic, team, or processes evolve, we adapt and expand your automations immediately.',
     },
   ];
 

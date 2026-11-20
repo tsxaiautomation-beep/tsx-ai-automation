@@ -14,7 +14,7 @@ export default function CaseStudies({ onOpenAuditModal }) {
             Proven impact for growing teams
           </h2>
           <p style={{ margin: 0, fontSize: 18, lineHeight: 1.65, color: '#B7B2D1' }}>
-            Real metrics achieved by TSX AI autonomous automation engines.
+            Real metrics achieved by HTM AI Automation engines.
           </p>
         </div>
 
@@ -54,7 +54,7 @@ export default function CaseStudies({ onOpenAuditModal }) {
                     <strong style={{ color: '#F87171' }}>Challenge: </strong>{study.challenge}
                   </div>
                   <div style={{ color: '#EDE9FE' }}>
-                    <strong style={{ color: '#A78BFA' }}>TSX Solution: </strong>{study.solution}
+                    <strong style={{ color: '#EF4444' }}>HTM Solution: </strong>{study.solution}
                   </div>
                 </div>
 

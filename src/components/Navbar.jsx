@@ -53,7 +53,7 @@ export function AnnouncementBar({ onOpenModal }) {
           flexShrink: 0,
         }}>
           <span style={{ width: '5px', height: '5px', borderRadius: '50%', background: '#EF4444', boxShadow: '0 0 6px #EF4444' }} />
-          AUTONYX AI
+          HTM AI Automation
         </span>
 
         {/* Slogan — hidden on very small screens */}
@@ -133,7 +133,7 @@ export function Navbar({ onOpenModal }) {
         justifyContent: 'space-between',
         gap: '16px',
       }}>
-        {/* Logo with Real AUTONYX Emblem */}
+        {/* Logo with Real HTM AI Automation Emblem */}
         <a href="#top" style={{ display: 'flex', alignItems: 'center', gap: '12px', color: '#FFFFFF' }}>
           <div style={{
             position: 'relative',
@@ -150,22 +150,22 @@ export function Navbar({ onOpenModal }) {
             background: '#050408',
           }}>
             <img
-              src="/autonyx-logo.png"
-              alt="AUTONYX AI Logo"
+              src="/htm-logo.png"
+              alt="HTM AI Automation Logo"
               style={{ width: '100%', height: '100%', objectFit: 'contain' }}
             />
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.15 }}>
-            <div style={{ display: 'flex', alignItems: 'baseline', gap: '2px' }}>
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: '4px' }}>
               <span style={{ fontFamily: "'Sora', sans-serif", fontWeight: 800, fontSize: '20px', letterSpacing: '-0.5px', color: '#FFFFFF' }}>
-                AUTONY
+                HTM
               </span>
               <span style={{ fontFamily: "'Sora', sans-serif", fontWeight: 800, fontSize: '20px', color: '#EF4444' }}>
-                X
+                AI
               </span>
             </div>
             <span style={{ fontSize: '10px', color: '#9CA3AF', letterSpacing: '2px', fontWeight: 600, fontFamily: "'Inter', sans-serif" }}>
-              AI AUTOMATION
+              AUTOMATION
             </span>
           </div>
         </a>
@@ -368,7 +368,7 @@ export function Navbar({ onOpenModal }) {
               WhatsApp 2: +92 314 1151571
             </a>
             <a
-              href="mailto:autonyxaiautomation@gmail.com"
+              href="mailto:contact@htmaiautomation.com"
               style={{
                 width: '100%',
                 background: 'rgba(239, 68, 68, 0.1)',
@@ -387,7 +387,7 @@ export function Navbar({ onOpenModal }) {
                 textDecoration: 'none',
               }}
             >
-              ✉️ autonyxaiautomation@gmail.com
+              ✉️ contact@htmaiautomation.com
               <span style={{ fontSize: '11px', background: '#EF4444', color: '#fff', padding: '1px 6px', borderRadius: '4px', fontWeight: 700 }}>Fast Reply</span>
             </a>
           </div>

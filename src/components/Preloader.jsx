@@ -74,8 +74,8 @@ export default function Preloader({ onComplete }) {
             fontSize: 18,
             color: '#fff',
             letterSpacing: '1px',
-          }}>TSX</span>
-          <span style={{ fontSize: 9, color: '#A78BFA', letterSpacing: '2px', marginTop: 1 }}>AI</span>
+          }}>HTM</span>
+          <span style={{ fontSize: 9, color: '#EF4444', letterSpacing: '2px', marginTop: 1 }}>AI</span>
         </div>
       </div>
 
@@ -86,7 +86,7 @@ export default function Preloader({ onComplete }) {
         letterSpacing: '3px',
         textTransform: 'uppercase',
       }}>
-        TSX AI Automation
+        HTM AI Automation
       </div>
     </div>
   );

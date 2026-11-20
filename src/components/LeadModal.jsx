@@ -22,7 +22,7 @@ export default function LeadModal({ isOpen, onClose, selectedService }) {
     setLoading(true);
 
     try {
-      await fetch('https://formsubmit.co/ajax/autonyxaiautomation@gmail.com', {
+      await fetch('https://formsubmit.co/ajax/contact@htmaiautomation.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -39,7 +39,7 @@ export default function LeadModal({ isOpen, onClose, selectedService }) {
           'Selected Service': formData.service,
           'Details': formData.details || 'Audit Request',
           'Submitted At': new Date().toLocaleString(),
-          'Source': 'AUTONYX AI Website - Lead Modal',
+          'Source': 'HTM AI Automation Website - Lead Modal',
         }),
       });
 
@@ -62,7 +62,7 @@ export default function LeadModal({ isOpen, onClose, selectedService }) {
   };
 
   const whatsappMessage = encodeURIComponent(
-    `Hello TSX AI Automation! My name is ${formData.name || 'a prospect'} (${formData.company || 'Business'}). I want to book an AI audit for: ${formData.service}.`
+    `Hello HTM AI Automation! My name is ${formData.name || 'a prospect'} (${formData.company || 'Business'}). I want to book an AI audit for: ${formData.service}.`
   );
 
   return (

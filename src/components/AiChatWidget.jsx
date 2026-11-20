@@ -7,7 +7,7 @@ export default function AiChatWidget({ onOpenModal }) {
   const [messages, setMessages] = useState([
     {
       sender: 'bot',
-      text: `Assalam o Alaikum! 👋 I am **AUTONYX AI**, your autonomous business assistant.\n\nI can help you with:\n• 🎙️ **AI Voice Calling Agents** (Urdu & English)\n• 💬 **24/7 WhatsApp AI Bots**\n• 📧 **AI Email Marketing & Outreach**\n• 🏢 **All Business & ERP Automations**\n• 🌐 **Modern Web Systems & Dashboards**\n\nWhat workflow or process would you like to automate?`,
+      text: `Assalam o Alaikum! 👋 I am **HTM AI Automation**, your autonomous business assistant.\n\nI can help you with:\n• 🎙️ **AI Voice Calling Agents** (Urdu & English)\n• 💬 **24/7 WhatsApp AI Bots**\n• 📧 **AI Email Marketing & Outreach**\n• 🏢 **All Business & ERP Automations**\n• 🌐 **Modern Web Systems & Dashboards**\n\nWhat workflow or process would you like to automate?`,
     },
   ]);
   const [inputText, setInputText] = useState('');
@@ -53,13 +53,13 @@ export default function AiChatWidget({ onOpenModal }) {
       } else if (lower.includes('all business') || lower.includes('erp') || lower.includes('operation') || lower.includes('full') || lower.includes('pura')) {
         reply = `🏢 **All-In-One Business Automation & Custom ERP:**\n• Connects Sales, Inventory (Shopify/POS), Accounting, and HR into one central nervous system.\n• Eliminates repetitive manual data entry across departments.\n• Automated WhatsApp daily executive digest with real-time revenue & stock alerts.\n• Designed bespoke for Karachi & global growing companies.`;
       } else if (lower.includes('service') || lower.includes('offer') || lower.includes('kaam') || lower.includes('pillar') || lower.includes('solution')) {
-        reply = `🚀 **AUTONYX Full Automation Suite:**\n\n1. **AI Voice Calling Agents:** Inbound & outbound calls in Urdu/English.\n2. **24/7 WhatsApp AI Bots:** Instant lead qualification & appointment booking.\n3. **AI Email Marketing:** Automated high-deliverability cold outreach.\n4. **All Business & ERP Automation:** Inventory, billing & cross-team autopilot.\n5. **Web Development & Platforms:** Ultra-fast React & Next.js systems.\n6. **Cloud & CRM Integrations:** HubSpot, Sheets, MongoDB, and Stripe.\n\nWhich solution fits your current priority?`;
+        reply = `🚀 **HTM AI Automation Full Automation Suite:**\n\n1. **AI Voice Calling Agents:** Inbound & outbound calls in Urdu/English.\n2. **24/7 WhatsApp AI Bots:** Instant lead qualification & appointment booking.\n3. **AI Email Marketing:** Automated high-deliverability cold outreach.\n4. **All Business & ERP Automation:** Inventory, billing & cross-team autopilot.\n5. **Web Development & Platforms:** Ultra-fast React & Next.js systems.\n6. **Cloud & CRM Integrations:** HubSpot, Sheets, MongoDB, and Stripe.\n\nWhich solution fits your current priority?`;
       } else if (lower.includes('whatsapp') || lower.includes('bot')) {
         reply = `💬 **24/7 WhatsApp AI Assistants:**\n• Direct Meta Cloud API integration (official & scalable).\n• Understands English, Urdu, and Roman Urdu naturally.\n• Automates lead qualification, catalog distribution, order updates, and CRM sync.\n• Instant human handover for VIP clients.\n\nReady to test a demo? Message us directly at **${COMPANY_INFO.phone}**!`;
       } else if (lower.includes('web') || lower.includes('site') || lower.includes('cloud') || lower.includes('app') || lower.includes('software')) {
         reply = `🌐 **Web Development & Cloud Architecture:**\nWe engineer full-stack React, Node.js, and Next.js applications engineered for speed and conversion. We deploy on secure cloud infrastructure with MongoDB/Firebase and automated CI/CD pipelines.`;
       } else if (lower.includes('contact') || lower.includes('phone') || lower.includes('number') || lower.includes('call') || lower.includes('raabta') || lower.includes('email') || lower.includes('address') || lower.includes('karachi')) {
-        reply = `📍 **AUTONYX AI Automation HQ:**\n• **City:** Karachi, Pakistan (Serving local & global businesses)\n• **WhatsApp 1:** +92 336 3925950 (Active 24/7)\n• **WhatsApp 2:** +92 314 1151571 (Active 24/7)\n• **Direct Email (Fastest Reply):** ${COMPANY_INFO.email}\n• **Consultation:** 100% Free 30-Minute Architecture Audit.`;
+        reply = `📍 **HTM AI Automation HQ:**\n• **City:** Karachi, Pakistan (Serving local & global businesses)\n• **WhatsApp 1:** +92 336 3925950 (Active 24/7)\n• **WhatsApp 2:** +92 314 1151571 (Active 24/7)\n• **Direct Email (Fastest Reply):** ${COMPANY_INFO.email}\n• **Consultation:** 100% Free 30-Minute Architecture Audit.`;
       } else if (lower.includes('price') || lower.includes('cost') || lower.includes('kitna') || lower.includes('rate') || lower.includes('package') || lower.includes('timeline')) {
         reply = `💰 **Tailored, Transparent Pricing:**\nEvery workflow has distinct requirements, so we never force cookie-cutter packages. We provide a **Free 30-Minute Discovery Session** to inspect your systems and present a fixed, milestone-based quote.\n\nTypical automations pay for themselves within 30 days!`;
       } else if (lower.includes('book') || lower.includes('meeting') || lower.includes('consultation') || lower.includes('call') || lower.includes('demo')) {
@@ -67,7 +67,7 @@ export default function AiChatWidget({ onOpenModal }) {
       } else if (/\d{10,12}/.test(query)) {
         reply = `✅ **Number received!**\nOur automation consultant in Karachi will message your WhatsApp within 10 minutes with consultation details.`;
       } else {
-        reply = `Thank you for asking! At **AUTONYX AI**, we engineer custom automations that eliminate manual bottlenecks and accelerate growth.\n\nWould you like to book a free 30-minute discovery call or chat directly with our founder on WhatsApp (+92 336 3925950 / +92 314 1151571)?`;
+        reply = `Thank you for asking! At **HTM AI Automation**, we engineer custom automations that eliminate manual bottlenecks and accelerate growth.\n\nWould you like to book a free 30-minute discovery call or chat directly with our founder on WhatsApp (+92 336 3925950 / +92 314 1151571)?`;
       }
 
       setMessages((prev) => [...prev, { sender: 'bot', text: reply }]);
@@ -120,7 +120,7 @@ export default function AiChatWidget({ onOpenModal }) {
                 boxShadow: '0 0 8px #22C55E',
               }}
             />
-            <span>Ask <strong style={{ color: '#FFFFFF' }}>AUTONYX</strong> <span style={{ color: '#EF4444' }}>AI</span></span>
+            <span>Ask <strong style={{ color: '#FFFFFF' }}>HTM AI Automation</strong> <span style={{ color: '#EF4444' }}>AI</span></span>
             <span style={{ fontSize: '11px', color: '#9CA3AF' }}>• Online</span>
           </div>
         )}
@@ -128,7 +128,7 @@ export default function AiChatWidget({ onOpenModal }) {
         {/* The Sexy Hot Launcher Orb (Proper Flawless Circle) */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          aria-label="Toggle AUTONYX AI Chatbot"
+          aria-label="Toggle HTM AI Automation Chatbot"
           style={{
             width: '64px',
             height: '64px',
@@ -166,8 +166,8 @@ export default function AiChatWidget({ onOpenModal }) {
                 boxShadow: '0 0 14px rgba(239, 68, 68, 0.25)',
               }}>
                 <img
-                  src="/autonyx-logo.png"
-                  alt="AUTONYX Logo"
+                  src="/htm-logo.png"
+                  alt="HTM AI Automation Logo"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -258,8 +258,8 @@ export default function AiChatWidget({ onOpenModal }) {
                   }}
                 >
                   <img
-                    src="/autonyx-logo.png"
-                    alt="AUTONYX"
+                    src="/htm-logo.png"
+                    alt="HTM AI Automation"
                     style={{
                       width: '100%',
                       height: '100%',
@@ -288,7 +288,7 @@ export default function AiChatWidget({ onOpenModal }) {
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <span style={{ fontSize: '15px', fontWeight: 800, fontFamily: "'Sora', sans-serif", letterSpacing: '-0.3px' }}>
-                    AUTONY<span style={{ color: '#EF4444' }}>X</span> AI
+                    HTM <span style={{ color: '#EF4444' }}>AI</span>
                   </span>
                   <span
                     style={{
@@ -553,7 +553,7 @@ export default function AiChatWidget({ onOpenModal }) {
           >
             <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
               <ShieldCheck size={12} color="#9CA3AF" />
-              <span>AUTONYX Enterprise AI</span>
+              <span>HTM AI Automation Enterprise AI</span>
             </div>
             <a
               href={COMPANY_INFO.whatsappUrl}

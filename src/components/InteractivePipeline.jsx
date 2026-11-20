@@ -69,7 +69,7 @@ export default function InteractivePipeline() {
 
         {/* SVG Diagram */}
         <div style={{ marginTop: 48, marginBottom: 72 }}>
-          <svg viewBox="0 0 960 540" width="100%" style={{ maxWidth: 980, display: 'block', margin: '0 auto' }} role="img" aria-label="TSX AI Hub Diagram">
+          <svg viewBox="0 0 960 540" width="100%" style={{ maxWidth: 980, display: 'block', margin: '0 auto' }} role="img" aria-label="HTM AI Hub Diagram">
             <defs>
               <radialGradient id="halo" cx="50%" cy="50%" r="50%">
                 <stop offset="0%" stopColor="#7C3AED" stopOpacity="0.55"/>
@@ -98,7 +98,7 @@ export default function InteractivePipeline() {
             </g>
             <circle cx="480" cy="270" r="98" fill="none" stroke="#A78BFA" strokeWidth="2" style={{ transformBox: 'fill-box', transformOrigin: 'center', animation: 'pulse 3s ease-in-out infinite' }}/>
             <circle cx="480" cy="270" r="80" fill="url(#hubg)" stroke="#FFFFFF" strokeOpacity="0.3" strokeWidth="1.5"/>
-            <text x="480" y="272" textAnchor="middle" fontFamily="Sora, sans-serif" fontWeight="800" fontSize="36" fill="#FFFFFF">TSX</text>
+            <text x="480" y="272" textAnchor="middle" fontFamily="Sora, sans-serif" fontWeight="800" fontSize="36" fill="#FFFFFF">HTM</text>
             <text x="480" y="298" textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight="600" fontSize="15" letterSpacing="4" fill="#EDE9FE">AI</text>
             <g fontFamily="Inter, sans-serif">
               <rect x="20" y="58" width="210" height="64" rx="16" fill="#140F26" stroke="#A78BFA" strokeOpacity="0.4"/>
@@ -127,7 +127,7 @@ export default function InteractivePipeline() {
         <div style={{ textAlign: 'center', maxWidth: 760, margin: '0 auto 36px', display: 'flex', flexDirection: 'column', gap: 14 }}>
           <div style={{ fontSize: 14, fontWeight: 600, color: '#A78BFA', letterSpacing: 2 }}>LIVE EXECUTION DEMO</div>
           <h3 style={{ margin: 0, fontFamily: "'Sora',sans-serif", fontWeight: 700, fontSize: 'clamp(24px,3.5vw,40px)' }}>
-            See how the TSX pipeline runs in real-time
+            See how the HTM pipeline runs in real-time
           </h3>
           <p style={{ margin: 0, fontSize: 16, color: '#B7B2D1' }}>
             Choose a business use-case below and click "Run Live Simulation" to watch the flow execute step by step.
@@ -277,7 +277,7 @@ export default function InteractivePipeline() {
 
             <div style={{ background: 'rgba(16,185,129,0.05)', padding: 16, borderRadius: 14, border: '1px solid rgba(16,185,129,0.25)' }}>
               <div style={{ fontSize: 11, color: '#34D399', fontWeight: 700, letterSpacing: 1, textTransform: 'uppercase', marginBottom: 6 }}>
-                ⚡ TSX AI Action Taken
+                ⚡ HTM AI Action Taken
               </div>
               <div style={{ fontSize: 14, color: '#ECFDF5', lineHeight: 1.5 }}>
                 {current.agentDecision}

@@ -45,7 +45,7 @@ export function BeforeAfter() {
           fontFamily: "'Plus Jakarta Sans', sans-serif",
         }}>
           <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#EF4444', boxShadow: '0 0 10px #EF4444' }} />
-          WHY AUTOMATE WITH AUTONYX
+          WHY AUTOMATE WITH HTM AI Automation
           <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#EF4444', boxShadow: '0 0 10px #EF4444' }} />
         </div>
         <h2 style={{
@@ -60,7 +60,7 @@ export function BeforeAfter() {
           Stop doing by hand what <span style={{ background: 'linear-gradient(180deg,#FFFFFF,#EF4444)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }}>AI can do for you</span>
         </h2>
         <p style={{ margin: 0, fontSize: 'clamp(14px, 1.8vw, 17px)', lineHeight: 1.65, color: '#9CA3AF', fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-          See the tangible operational difference between manual chaos and a streamlined AUTONYX automated engine.
+          See the tangible operational difference between manual chaos and a streamlined HTM AI Automation automated engine.
         </p>
       </div>
 
@@ -105,7 +105,7 @@ export function BeforeAfter() {
           ))}
         </div>
 
-        {/* With AUTONYX AI Automation */}
+        {/* With HTM AI Automation */}
         <div style={{
           flex: '1 1 340px',
           minWidth: 0,
@@ -126,7 +126,7 @@ export function BeforeAfter() {
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid rgba(239,68,68,0.25)', paddingBottom: '16px' }}>
             <div style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: '20px', color: '#FFFFFF', display: 'flex', alignItems: 'center', gap: '8px', letterSpacing: '-0.3px' }}>
               <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#EF4444', boxShadow: '0 0 10px #EF4444' }} />
-              With AUTONYX AI
+              With HTM AI Automation
             </div>
             <span style={{ fontSize: '10.5px', fontWeight: 800, letterSpacing: '1px', textTransform: 'uppercase', color: '#4ADE80', background: 'rgba(34,197,94,0.15)', border: '1px solid rgba(34,197,94,0.4)', padding: '4px 10px', borderRadius: '999px' }}>
               ● 24/7 Autopilot
@@ -179,23 +179,23 @@ export function ServicesSection() {
     <div id="services" style={{ position: 'relative', borderTop: '1px solid rgba(239,68,68,0.15)' }}>
       {/* Dynamic Keyframe Animations for Showcase Elements */}
       <style>{`
-        @keyframes autonyxTypingBounce {
+        @keyframes htmTypingBounce {
           0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
           40% { transform: scale(1); opacity: 1; }
         }
-        @keyframes autonyxDashMove {
+        @keyframes htmDashMove {
           0% { stroke-dashoffset: 24; }
           100% { stroke-dashoffset: 0; }
         }
-        @keyframes autonyxCursorBlink {
+        @keyframes htmCursorBlink {
           0%, 49% { opacity: 1; }
           50%, 100% { opacity: 0; }
         }
-        @keyframes autonyxWaveBar {
+        @keyframes htmWaveBar {
           0%, 100% { height: 6px; }
           50% { height: 26px; }
         }
-        @keyframes autonyxPulseRings {
+        @keyframes htmPulseRings {
           0% { transform: scale(0.95); opacity: 0.8; }
           50% { transform: scale(1.1); opacity: 1; }
           100% { transform: scale(0.95); opacity: 0.8; }
@@ -257,7 +257,7 @@ export function ServicesSection() {
             Autonomous systems that <span style={{ background: 'linear-gradient(180deg,#FFFFFF,#EF4444)', WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent' }}>scale your entire enterprise</span>
           </h2>
           <p style={{ margin: 0, fontSize: 'clamp(14.5px, 1.8vw, 17px)', lineHeight: 1.65, color: '#9CA3AF', fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-            From human-sounding AI phone agents and WhatsApp bots to full-scale business operations, cold email, and custom ERPs—engineered turnkey by AUTONYX.
+            From human-sounding AI phone agents and WhatsApp bots to full-scale business operations, cold email, and custom ERPs—engineered turnkey by HTM AI Automation.
           </p>
         </div>
 
@@ -367,7 +367,7 @@ export function ServicesSection() {
                           borderRadius: '999px',
                           background: 'linear-gradient(180deg, #EF4444, #B91C1C)',
                           boxShadow: '0 0 8px rgba(239,68,68,0.4)',
-                          animation: 'autonyxWaveBar 1.2s infinite ease-in-out',
+                          animation: 'htmWaveBar 1.2s infinite ease-in-out',
                           animationDelay: `${i * 0.07}s`,
                         }}
                       />
@@ -382,7 +382,7 @@ export function ServicesSection() {
                     </div>
 
                     <div style={{ background: 'rgba(239,68,68,0.14)', borderRadius: '10px', padding: '8px 10px', border: '1px solid rgba(239,68,68,0.35)' }}>
-                      <span style={{ color: '#F87171', fontWeight: 800 }}>AUTONYX Voice AI: </span>
+                      <span style={{ color: '#F87171', fontWeight: 800 }}>HTM AI Automation Voice AI: </span>
                       <span style={{ color: '#FFFFFF' }}>"Walaikum Assalam! Absolutely, 500 sq-yd inventory available hai. Kya kal 4 PM viewing schedule karein?"</span>
                     </div>
                   </div>
@@ -438,7 +438,7 @@ export function ServicesSection() {
                 fontSize: '12px',
               }}>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid rgba(255,255,255,0.06)', paddingBottom: '6px' }}>
-                  <span style={{ fontWeight: 800, color: '#FFFFFF' }}>AUTONYX WhatsApp AI</span>
+                  <span style={{ fontWeight: 800, color: '#FFFFFF' }}>HTM AI Automation WhatsApp AI</span>
                   <span style={{ fontSize: '10.5px', color: '#22C55E', fontWeight: 700 }}>● Online 24/7</span>
                 </div>
                 <div style={{ background: '#18222D', borderRadius: '10px', padding: '7px 10px', color: '#E5E7EB', alignSelf: 'flex-start', maxWidth: '85%' }}>
@@ -713,7 +713,7 @@ export function ServicesSection() {
                   {/* Laser connector SVG */}
                   <div style={{ display: 'flex', justifyContent: 'center', height: '14px', alignItems: 'center' }}>
                     <svg width="100%" height="14" style={{ overflow: 'visible' }}>
-                      <line x1="50%" y1="0" x2="50%" y2="14" stroke="#EF4444" strokeWidth="2" strokeDasharray="3 3" style={{ animation: 'autonyxDashMove 1s linear infinite' }} />
+                      <line x1="50%" y1="0" x2="50%" y2="14" stroke="#EF4444" strokeWidth="2" strokeDasharray="3 3" style={{ animation: 'htmDashMove 1s linear infinite' }} />
                     </svg>
                   </div>
 
@@ -724,7 +724,7 @@ export function ServicesSection() {
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="2.4"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
                       </div>
                       <div>
-                        <div style={{ fontSize: '12.5px', fontWeight: 800, color: '#FFFFFF' }}>AUTONYX AI Brain</div>
+                        <div style={{ fontSize: '12.5px', fontWeight: 800, color: '#FFFFFF' }}>HTM AI Automation Brain</div>
                         <div style={{ fontSize: '11px', color: '#FEE2E2' }}>Auto-qualified &amp; scored</div>
                       </div>
                     </div>
@@ -734,7 +734,7 @@ export function ServicesSection() {
                   {/* Laser connector SVG */}
                   <div style={{ display: 'flex', justifyContent: 'center', height: '14px', alignItems: 'center' }}>
                     <svg width="100%" height="14" style={{ overflow: 'visible' }}>
-                      <line x1="50%" y1="0" x2="50%" y2="14" stroke="#EF4444" strokeWidth="2" strokeDasharray="3 3" style={{ animation: 'autonyxDashMove 1s linear infinite' }} />
+                      <line x1="50%" y1="0" x2="50%" y2="14" stroke="#EF4444" strokeWidth="2" strokeDasharray="3 3" style={{ animation: 'htmDashMove 1s linear infinite' }} />
                     </svg>
                   </div>
 

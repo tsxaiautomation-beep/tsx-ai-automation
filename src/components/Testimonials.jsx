@@ -14,7 +14,7 @@ export default function Testimonials() {
             Trusted by founders & leaders
           </h2>
           <p style={{ margin: 0, fontSize: 18, lineHeight: 1.65, color: '#B7B2D1' }}>
-            Hear from teams that eliminated manual chaos with custom TSX AI automations.
+            Hear from teams that eliminated manual chaos with custom HTM AI automations.
           </p>
         </div>
 
